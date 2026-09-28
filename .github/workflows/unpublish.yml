@@ -39,7 +39,7 @@ permissions:
 
 jobs:
   unpublish:
-    uses: logos-co/logos-modules-release-action/.github/workflows/unpublish.yml@v1.7
+    uses: logos-co/logos-modules-release-action/.github/workflows/unpublish.yml@v1.8
     with:
       module:      ${{ inputs.module }}
       version:     ${{ inputs.version }}
